@@ -8,9 +8,9 @@
 /	 3. features
 /	 4. description
 / 	 5. portfolio
-/
-/
-/
+/	 6. testimonials
+/	 7. contact
+/	 8. social-media
 /
 //////////////////////////////////////////////////////*/
 
@@ -396,3 +396,188 @@ body {
 .fadeIn-bottom {
 	top: 80%;
 }
+
+/*//////////////////////////////////////////////
+//	6. Testimonials
+//////////////////////////////////////////////*/
+
+.testimonials {
+	background-image: url(../images/gtr-oldphoto_uwtvuy.jpg);
+	background-size: 115%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 365px;
+	color: #FFF;
+}
+
+.testimonials__header {
+	padding: 40px;
+}
+
+.testimonials__title {
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.testimonials__content {
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.testimonials__box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	text-align: center;
+	min-width: 1000px;
+}
+
+.testimonials__quote {
+	color: #696969;
+	padding: 20px 0;
+	line-height: 1.5;
+}
+
+.testimonials__person {
+	color: #0BC0F5;
+	padding: 30px 0;
+}
+
+.testimonials__one {
+	opacity: 1;
+	animation: 10s ease-in-out fadeIn-one infinite;
+}
+
+.testimonials__two {
+	animation: 10s ease-in-out fadeIn-two infinite;
+}
+
+.testimonials__three {
+	animation: 10s ease-in-out fadeIn-three infinite;
+}
+
+@keyframes fadeIn-one {
+	0%, 33%, 100% {
+		opacity: 0;
+	}
+	3%, 30% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn-two {
+	0%, 33%, 66%, 100% {
+		opacity: 0;
+	}
+	35%, 63% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn-three {
+	0%, 66%, 100% {
+		opacity: 0;
+	}
+	68%, 98% {
+		opacity: 1;
+	}
+}
+
+/*///////////////////////////////////////////
+//	7. Contact
+///////////////////////////////////////////*/
+
+.contact {
+	width: 100%;
+	height: 315px;
+	background-color: #FFF;
+	color: #696969;
+	position: relative;
+}
+
+.contact__content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.contact__title {
+	padding: 40px 0 10px 0;
+	color: #696969;
+	text-transform: uppercase;
+	letter-spacing: 1.5px
+}
+
+.contact__text {
+	padding: 10px 0 70px 0;
+	font-size: 12px;
+}
+
+.contact__btn {
+	padding: 25px 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #3b7586;
+	color: #FFF;
+	font-weight: 600;
+	transition: background-color .5s ease-in-out;
+}
+
+.contact__btn:hover {
+	background-color: #3b8576;
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////
+// 8. Social media
+////////////////////////////////////////////////*/
+
+.social-media {
+	background-color: #3b8576;
+	width: 100%;
+	height: 315px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
