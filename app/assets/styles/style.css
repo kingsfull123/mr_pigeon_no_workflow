@@ -39,8 +39,8 @@ body {
 }
 
 .wrapper--sections {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	text-align: center;
 }
 
@@ -541,25 +541,58 @@ body {
 }
 
 
-
-
-
-
-
-
 /*///////////////////////////////////////////////
 // 8. Social media
 ////////////////////////////////////////////////*/
 
 .social-media {
-	background-color: #3b8576;
+	background-color: #393939;
 	width: 100%;
-	height: 315px;
+	height: auto;
+	color: #FFF;
 }
 
 
 
+.social-media__headings {
+	padding: 20px 0;
+	text-transform: uppercase;
+}
 
+.social-media__icons {
+	font-size: 25px;
+}
+
+.social-media__title, .social-media__subtitle {
+	padding: 20px 0;
+}
+
+.social-media__line {
+	display: block;
+	padding: 7px 0;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.social-media__line a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/*//////////////////////////////////////////////
+// 9. Footer
+//////////////////////////////////////////////*/
+
+.footer-wrapper {
+	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer__description {
+	color: #3b8567;
+}
 
 
 
