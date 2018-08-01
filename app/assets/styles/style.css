@@ -11,6 +11,8 @@
 /	 6. testimonials
 /	 7. contact
 /	 8. social-media
+/	 9. scroll-up arrow
+/
 /
 //////////////////////////////////////////////////////*/
 
@@ -593,6 +595,77 @@ body {
 .footer__description {
 	color: #3b8567;
 }
+
+/*////////////////////////////////////////////////////
+//	9. Scroll up arrow
+////////////////////////////////////////////////////*/
+
+.scrollup__icon {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(200, 200, 200, .5);
+	transition: all linear .3s;
+	cursor: pointer;
+	display: none;
+}
+
+.fa-chevron-up {
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	transform: translate(-50%, -50%);
+	animation: up ease-in 1s infinite;
+	animation-play-state: paused;
+	color: #696969;
+}
+
+.scrollup__icon:hover {
+	background-color: rgba(50, 50, 50, .5);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+
+.scrollup__icon:hover .fa-chevron-up {
+	animation-play-state: running;
+	color: #FFF;
+}
+
+@keyframes up {
+	from{
+		top: 50%;
+	}
+
+	to {
+		top: 20%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
